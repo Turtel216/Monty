@@ -31,6 +31,9 @@ Monty is a lightweight, Python-inspired programming language built with a Just-I
 
 Monty adopts a syntax that is similar to Python, with basic constructs for variables, conditionals, loops, and functions. Here’s a small taste of Monty syntax:
 
+> [!NOTE]  
+> The language's syntax is will be changed in the future.
+
 ```monty
 # Variables and arithmetic
 a = 5
