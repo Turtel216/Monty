@@ -19,8 +19,8 @@ common warnings
 
 library
     import:           warnings
-    exposed-modules:  Lexer, Parser, Generator
-    other-modules:    Syntax
+    exposed-modules:  Lexer Parser Emit
+    other-modules:    Syntax Generator
     other-extensions: OverloadedStrings, GeneralizedNewtypeDeriving
     build-depends:    base          ^>=4.17
                      , parsec       >= 3.1
