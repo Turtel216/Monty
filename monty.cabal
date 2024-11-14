@@ -19,7 +19,7 @@ common warnings
 
 library
     import:           warnings
-    exposed-modules:  Lexer
+    exposed-modules:  Lexer, Parser
     other-modules:    Syntax
     -- other-extensions:
     build-depends:    base ^>=4.17.2.1, parsec
