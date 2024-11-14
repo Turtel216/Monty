@@ -8,7 +8,7 @@ license:            MIT
 license-file:       LICENSE
 author:             Dimitrios Papakonstantinou
 maintainer:         papakonstantinou.dm@gmail.com
--- copyright:
+copyright:          Copyright 2024 Dimitrios Papakonstantinou
 category:           Language
 build-type:         Simple
 extra-doc-files:    CHANGELOG.md
@@ -19,10 +19,10 @@ common warnings
 
 library
     import:           warnings
-    exposed-modules:  MyLib
+    exposed-modules:  Lexer
     -- other-modules:
     -- other-extensions:
-    build-depends:    base ^>=4.17.2.1
+    build-depends:    base ^>=4.17.2.1, parsec
     hs-source-dirs:   src
     default-language: Haskell2010
 
