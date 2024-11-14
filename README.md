@@ -1,6 +1,6 @@
 # Monty: A Toy Programming Language
 
-Monty is a lightweight, Python-inspired programming language built with a Just-In-Time (JIT) compiler for speed and efficiency. Developed in Haskell and powered by LLVM, Monty is designed to be a simple, expressive, and flexible language with a syntax that’s easy to learn. Monty is a great way to explore language design, compiler construction, and the power of JIT compilation.
+Monty is a lightweight, Python-inspired programming language built with a Just-In-Time (JIT) compiler for speed and efficiency. Developed in Haskell and powered by LLVM, Monty is designed to be a simple, expressive, and flexible language with a syntax that’s easy to learn. Monty is a great way to explore language design, compiler construction, and the power of JIT compilation. The compiler design is based on the tutorial [Implementing a JIT Compiled Language with Haskell and LLVM](https://smunix.github.io/www.stephendiehl.com/llvm/index.html), making it ideal for educational purposes and further customization.
 
 ## Features
 
@@ -61,7 +61,7 @@ print(sum)
 To execute a Monty program, simply pass the `.my` file to the Monty interpreter:
 
 ```bash
-cabal run monty examples/hello_world.monty
+cabal run monty examples/hello_world.my
 ```
 
 ### Example Code
